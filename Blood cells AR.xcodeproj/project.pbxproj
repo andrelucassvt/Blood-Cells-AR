@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		246F20C5295B6C8300D8BAF0 /* Blood_cells_ARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20C4295B6C8300D8BAF0 /* Blood_cells_ARApp.swift */; };
+		246F20C9295B6C8500D8BAF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246F20C8295B6C8500D8BAF0 /* Assets.xcassets */; };
+		246F20CC295B6C8500D8BAF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246F20CB295B6C8500D8BAF0 /* Preview Assets.xcassets */; };
+		246F20D6295B6C8500D8BAF0 /* Blood_cells_ARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20D5295B6C8500D8BAF0 /* Blood_cells_ARTests.swift */; };
+		246F20E0295B6C8500D8BAF0 /* Blood_cells_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20DF295B6C8500D8BAF0 /* Blood_cells_ARUITests.swift */; };
+		246F20E2295B6C8500D8BAF0 /* Blood_cells_ARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20E1295B6C8500D8BAF0 /* Blood_cells_ARUITestsLaunchTests.swift */; };
+		246F2108295B6CAE00D8BAF0 /* QuickLookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20F1295B6CAE00D8BAF0 /* QuickLookApp.swift */; };
+		246F2109295B6CAE00D8BAF0 /* CellEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20F3295B6CAE00D8BAF0 /* CellEntity.swift */; };
+		246F210A295B6CAE00D8BAF0 /* linfocito.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 246F20F5295B6CAE00D8BAF0 /* linfocito.usdz */; };
+		246F210B295B6CAE00D8BAF0 /* neutrofilo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 246F20F6295B6CAE00D8BAF0 /* neutrofilo.usdz */; };
+		246F210C295B6CAE00D8BAF0 /* monocito.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 246F20F7295B6CAE00D8BAF0 /* monocito.usdz */; };
+		246F210D295B6CAE00D8BAF0 /* basofilo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 246F20F8295B6CAE00D8BAF0 /* basofilo.usdz */; };
+		246F210E295B6CAE00D8BAF0 /* eosinofilo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 246F20F9295B6CAE00D8BAF0 /* eosinofilo.usdz */; };
+		246F210F295B6CAE00D8BAF0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20FD295B6CAE00D8BAF0 /* HomeViewModel.swift */; };
+		246F2110295B6CAE00D8BAF0 /* CellCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20FF295B6CAE00D8BAF0 /* CellCardView.swift */; };
+		246F2111295B6CAE00D8BAF0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F2101295B6CAE00D8BAF0 /* HomeView.swift */; };
+		246F2112295B6CAE00D8BAF0 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F2104295B6CAE00D8BAF0 /* DetailsView.swift */; };
+		246F2113295B6CAE00D8BAF0 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F2107295B6CAE00D8BAF0 /* AboutView.swift */; };
+		24B7966A295CC6D1003E7EAB /* CardAutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B79669295CC6D1003E7EAB /* CardAutor.swift */; };
+		24B7966D295CCAEE003E7EAB /* StringsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7966C295CCAEE003E7EAB /* StringsApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		246F20D2295B6C8500D8BAF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 246F20B9295B6C8300D8BAF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 246F20C0295B6C8300D8BAF0;
+			remoteInfo = "Blood cells AR";
+		};
+		246F20DC295B6C8500D8BAF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 246F20B9295B6C8300D8BAF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 246F20C0295B6C8300D8BAF0;
+			remoteInfo = "Blood cells AR";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		246F20C1295B6C8300D8BAF0 /* Blood cells AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blood cells AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246F20C4295B6C8300D8BAF0 /* Blood_cells_ARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blood_cells_ARApp.swift; sourceTree = "<group>"; };
+		246F20C8295B6C8500D8BAF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		246F20CB295B6C8500D8BAF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		246F20D1295B6C8500D8BAF0 /* Blood cells ARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blood cells ARTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246F20D5295B6C8500D8BAF0 /* Blood_cells_ARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blood_cells_ARTests.swift; sourceTree = "<group>"; };
+		246F20DB295B6C8500D8BAF0 /* Blood cells ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blood cells ARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246F20DF295B6C8500D8BAF0 /* Blood_cells_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blood_cells_ARUITests.swift; sourceTree = "<group>"; };
+		246F20E1295B6C8500D8BAF0 /* Blood_cells_ARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blood_cells_ARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		246F20F1295B6CAE00D8BAF0 /* QuickLookApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickLookApp.swift; sourceTree = "<group>"; };
+		246F20F3295B6CAE00D8BAF0 /* CellEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellEntity.swift; sourceTree = "<group>"; };
+		246F20F5295B6CAE00D8BAF0 /* linfocito.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = linfocito.usdz; sourceTree = "<group>"; };
+		246F20F6295B6CAE00D8BAF0 /* neutrofilo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = neutrofilo.usdz; sourceTree = "<group>"; };
+		246F20F7295B6CAE00D8BAF0 /* monocito.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = monocito.usdz; sourceTree = "<group>"; };
+		246F20F8295B6CAE00D8BAF0 /* basofilo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = basofilo.usdz; sourceTree = "<group>"; };
+		246F20F9295B6CAE00D8BAF0 /* eosinofilo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = eosinofilo.usdz; sourceTree = "<group>"; };
+		246F20FD295B6CAE00D8BAF0 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		246F20FF295B6CAE00D8BAF0 /* CellCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCardView.swift; sourceTree = "<group>"; };
+		246F2101295B6CAE00D8BAF0 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		246F2104295B6CAE00D8BAF0 /* DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		246F2107295B6CAE00D8BAF0 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		24B79669295CC6D1003E7EAB /* CardAutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAutor.swift; sourceTree = "<group>"; };
+		24B7966C295CCAEE003E7EAB /* StringsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		246F20BE295B6C8300D8BAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246F20CE295B6C8500D8BAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246F20D8295B6C8500D8BAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246F20B8295B6C8300D8BAF0 = {
+			isa = PBXGroup;
+			children = (
+				246F20C3295B6C8300D8BAF0 /* Blood cells AR */,
+				246F20D4295B6C8500D8BAF0 /* Blood cells ARTests */,
+				246F20DE295B6C8500D8BAF0 /* Blood cells ARUITests */,
+				246F20C2295B6C8300D8BAF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		246F20C2295B6C8300D8BAF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				246F20C1295B6C8300D8BAF0 /* Blood cells AR.app */,
+				246F20D1295B6C8500D8BAF0 /* Blood cells ARTests.xctest */,
+				246F20DB295B6C8500D8BAF0 /* Blood cells ARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		246F20C3295B6C8300D8BAF0 /* Blood cells AR */ = {
+			isa = PBXGroup;
+			children = (
+				246F20EE295B6CAE00D8BAF0 /* src */,
+				246F20C4295B6C8300D8BAF0 /* Blood_cells_ARApp.swift */,
+				246F20C8295B6C8500D8BAF0 /* Assets.xcassets */,
+				246F20CA295B6C8500D8BAF0 /* Preview Content */,
+			);
+			path = "Blood cells AR";
+			sourceTree = "<group>";
+		};
+		246F20CA295B6C8500D8BAF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				246F20CB295B6C8500D8BAF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		246F20D4295B6C8500D8BAF0 /* Blood cells ARTests */ = {
+			isa = PBXGroup;
+			children = (
+				246F20D5295B6C8500D8BAF0 /* Blood_cells_ARTests.swift */,
+			);
+			path = "Blood cells ARTests";
+			sourceTree = "<group>";
+		};
+		246F20DE295B6C8500D8BAF0 /* Blood cells ARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				246F20DF295B6C8500D8BAF0 /* Blood_cells_ARUITests.swift */,
+				246F20E1295B6C8500D8BAF0 /* Blood_cells_ARUITestsLaunchTests.swift */,
+			);
+			path = "Blood cells ARUITests";
+			sourceTree = "<group>";
+		};
+		246F20EE295B6CAE00D8BAF0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				246F20EF295B6CAE00D8BAF0 /* util */,
+				246F20FA295B6CAE00D8BAF0 /* features */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		246F20EF295B6CAE00D8BAF0 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				24B7966B295CCAE0003E7EAB /* strings */,
+				246F20F0295B6CAE00D8BAF0 /* quickLook */,
+				246F20F2295B6CAE00D8BAF0 /* entity */,
+				246F20F4295B6CAE00D8BAF0 /* models */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		246F20F0295B6CAE00D8BAF0 /* quickLook */ = {
+			isa = PBXGroup;
+			children = (
+				246F20F1295B6CAE00D8BAF0 /* QuickLookApp.swift */,
+			);
+			path = quickLook;
+			sourceTree = "<group>";
+		};
+		246F20F2295B6CAE00D8BAF0 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				246F20F3295B6CAE00D8BAF0 /* CellEntity.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		246F20F4295B6CAE00D8BAF0 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				246F20F5295B6CAE00D8BAF0 /* linfocito.usdz */,
+				246F20F6295B6CAE00D8BAF0 /* neutrofilo.usdz */,
+				246F20F7295B6CAE00D8BAF0 /* monocito.usdz */,
+				246F20F8295B6CAE00D8BAF0 /* basofilo.usdz */,
+				246F20F9295B6CAE00D8BAF0 /* eosinofilo.usdz */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		246F20FA295B6CAE00D8BAF0 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				246F20FB295B6CAE00D8BAF0 /* home */,
+				246F2102295B6CAE00D8BAF0 /* details */,
+				246F2105295B6CAE00D8BAF0 /* about */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		246F20FB295B6CAE00D8BAF0 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				246F20FC295B6CAE00D8BAF0 /* viewModel */,
+				246F20FE295B6CAE00D8BAF0 /* card */,
+				246F2100295B6CAE00D8BAF0 /* view */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		246F20FC295B6CAE00D8BAF0 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				246F20FD295B6CAE00D8BAF0 /* HomeViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		246F20FE295B6CAE00D8BAF0 /* card */ = {
+			isa = PBXGroup;
+			children = (
+				246F20FF295B6CAE00D8BAF0 /* CellCardView.swift */,
+			);
+			path = card;
+			sourceTree = "<group>";
+		};
+		246F2100295B6CAE00D8BAF0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				246F2101295B6CAE00D8BAF0 /* HomeView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		246F2102295B6CAE00D8BAF0 /* details */ = {
+			isa = PBXGroup;
+			children = (
+				246F2103295B6CAE00D8BAF0 /* view */,
+			);
+			path = details;
+			sourceTree = "<group>";
+		};
+		246F2103295B6CAE00D8BAF0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				246F2104295B6CAE00D8BAF0 /* DetailsView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		246F2105295B6CAE00D8BAF0 /* about */ = {
+			isa = PBXGroup;
+			children = (
+				24B79668295CC6B1003E7EAB /* card */,
+				246F2106295B6CAE00D8BAF0 /* view */,
+			);
+			path = about;
+			sourceTree = "<group>";
+		};
+		246F2106295B6CAE00D8BAF0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				246F2107295B6CAE00D8BAF0 /* AboutView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		24B79668295CC6B1003E7EAB /* card */ = {
+			isa = PBXGroup;
+			children = (
+				24B79669295CC6D1003E7EAB /* CardAutor.swift */,
+			);
+			path = card;
+			sourceTree = "<group>";
+		};
+		24B7966B295CCAE0003E7EAB /* strings */ = {
+			isa = PBXGroup;
+			children = (
+				24B7966C295CCAEE003E7EAB /* StringsApp.swift */,
+			);
+			path = strings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		246F20C0295B6C8300D8BAF0 /* Blood cells AR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246F20E5295B6C8500D8BAF0 /* Build configuration list for PBXNativeTarget "Blood cells AR" */;
+			buildPhases = (
+				246F20BD295B6C8300D8BAF0 /* Sources */,
+				246F20BE295B6C8300D8BAF0 /* Frameworks */,
+				246F20BF295B6C8300D8BAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blood cells AR";
+			productName = "Blood cells AR";
+			productReference = 246F20C1295B6C8300D8BAF0 /* Blood cells AR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		246F20D0295B6C8500D8BAF0 /* Blood cells ARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246F20E8295B6C8500D8BAF0 /* Build configuration list for PBXNativeTarget "Blood cells ARTests" */;
+			buildPhases = (
+				246F20CD295B6C8500D8BAF0 /* Sources */,
+				246F20CE295B6C8500D8BAF0 /* Frameworks */,
+				246F20CF295B6C8500D8BAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				246F20D3295B6C8500D8BAF0 /* PBXTargetDependency */,
+			);
+			name = "Blood cells ARTests";
+			productName = "Blood cells ARTests";
+			productReference = 246F20D1295B6C8500D8BAF0 /* Blood cells ARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		246F20DA295B6C8500D8BAF0 /* Blood cells ARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246F20EB295B6C8500D8BAF0 /* Build configuration list for PBXNativeTarget "Blood cells ARUITests" */;
+			buildPhases = (
+				246F20D7295B6C8500D8BAF0 /* Sources */,
+				246F20D8295B6C8500D8BAF0 /* Frameworks */,
+				246F20D9295B6C8500D8BAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				246F20DD295B6C8500D8BAF0 /* PBXTargetDependency */,
+			);
+			name = "Blood cells ARUITests";
+			productName = "Blood cells ARUITests";
+			productReference = 246F20DB295B6C8500D8BAF0 /* Blood cells ARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		246F20B9295B6C8300D8BAF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					246F20C0295B6C8300D8BAF0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					246F20D0295B6C8500D8BAF0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 246F20C0295B6C8300D8BAF0;
+					};
+					246F20DA295B6C8500D8BAF0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 246F20C0295B6C8300D8BAF0;
+					};
+				};
+			};
+			buildConfigurationList = 246F20BC295B6C8300D8BAF0 /* Build configuration list for PBXProject "Blood cells AR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 246F20B8295B6C8300D8BAF0;
+			productRefGroup = 246F20C2295B6C8300D8BAF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				246F20C0295B6C8300D8BAF0 /* Blood cells AR */,
+				246F20D0295B6C8500D8BAF0 /* Blood cells ARTests */,
+				246F20DA295B6C8500D8BAF0 /* Blood cells ARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		246F20BF295B6C8300D8BAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246F210C295B6CAE00D8BAF0 /* monocito.usdz in Resources */,
+				246F210A295B6CAE00D8BAF0 /* linfocito.usdz in Resources */,
+				246F20CC295B6C8500D8BAF0 /* Preview Assets.xcassets in Resources */,
+				246F210B295B6CAE00D8BAF0 /* neutrofilo.usdz in Resources */,
+				246F210D295B6CAE00D8BAF0 /* basofilo.usdz in Resources */,
+				246F20C9295B6C8500D8BAF0 /* Assets.xcassets in Resources */,
+				246F210E295B6CAE00D8BAF0 /* eosinofilo.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246F20CF295B6C8500D8BAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246F20D9295B6C8500D8BAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		246F20BD295B6C8300D8BAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246F2113295B6CAE00D8BAF0 /* AboutView.swift in Sources */,
+				246F2110295B6CAE00D8BAF0 /* CellCardView.swift in Sources */,
+				24B7966A295CC6D1003E7EAB /* CardAutor.swift in Sources */,
+				246F2112295B6CAE00D8BAF0 /* DetailsView.swift in Sources */,
+				246F2109295B6CAE00D8BAF0 /* CellEntity.swift in Sources */,
+				246F2108295B6CAE00D8BAF0 /* QuickLookApp.swift in Sources */,
+				246F2111295B6CAE00D8BAF0 /* HomeView.swift in Sources */,
+				246F20C5295B6C8300D8BAF0 /* Blood_cells_ARApp.swift in Sources */,
+				24B7966D295CCAEE003E7EAB /* StringsApp.swift in Sources */,
+				246F210F295B6CAE00D8BAF0 /* HomeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246F20CD295B6C8500D8BAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246F20D6295B6C8500D8BAF0 /* Blood_cells_ARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246F20D7295B6C8500D8BAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246F20E2295B6C8500D8BAF0 /* Blood_cells_ARUITestsLaunchTests.swift in Sources */,
+				246F20E0295B6C8500D8BAF0 /* Blood_cells_ARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		246F20D3295B6C8500D8BAF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 246F20C0295B6C8300D8BAF0 /* Blood cells AR */;
+			targetProxy = 246F20D2295B6C8500D8BAF0 /* PBXContainerItemProxy */;
+		};
+		246F20DD295B6C8500D8BAF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 246F20C0295B6C8300D8BAF0 /* Blood cells AR */;
+			targetProxy = 246F20DC295B6C8500D8BAF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		246F20E3295B6C8500D8BAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		246F20E4295B6C8500D8BAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		246F20E6295B6C8500D8BAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blood cells AR/Preview Content\"";
+				DEVELOPMENT_TEAM = QNW59SGYAU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blood-cells-AR-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Blood cells AR";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.Blood-cells-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		246F20E7295B6C8500D8BAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blood cells AR/Preview Content\"";
+				DEVELOPMENT_TEAM = QNW59SGYAU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blood-cells-AR-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Blood cells AR";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.Blood-cells-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		246F20E9295B6C8500D8BAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNW59SGYAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.Blood-cells-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blood cells AR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blood cells AR";
+			};
+			name = Debug;
+		};
+		246F20EA295B6C8500D8BAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNW59SGYAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.Blood-cells-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blood cells AR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blood cells AR";
+			};
+			name = Release;
+		};
+		246F20EC295B6C8500D8BAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNW59SGYAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.Blood-cells-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blood cells AR";
+			};
+			name = Debug;
+		};
+		246F20ED295B6C8500D8BAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNW59SGYAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.Blood-cells-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blood cells AR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		246F20BC295B6C8300D8BAF0 /* Build configuration list for PBXProject "Blood cells AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246F20E3295B6C8500D8BAF0 /* Debug */,
+				246F20E4295B6C8500D8BAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246F20E5295B6C8500D8BAF0 /* Build configuration list for PBXNativeTarget "Blood cells AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246F20E6295B6C8500D8BAF0 /* Debug */,
+				246F20E7295B6C8500D8BAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246F20E8295B6C8500D8BAF0 /* Build configuration list for PBXNativeTarget "Blood cells ARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246F20E9295B6C8500D8BAF0 /* Debug */,
+				246F20EA295B6C8500D8BAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246F20EB295B6C8500D8BAF0 /* Build configuration list for PBXNativeTarget "Blood cells ARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246F20EC295B6C8500D8BAF0 /* Debug */,
+				246F20ED295B6C8500D8BAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 246F20B9295B6C8300D8BAF0 /* Project object */;
+}
