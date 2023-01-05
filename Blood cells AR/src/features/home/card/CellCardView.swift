@@ -42,6 +42,6 @@ struct CellCardView: View {
 
 struct CellCardView_Previews: PreviewProvider {
     static var previews: some View {
-        CellCardView(cellEntity: CellEntity(name: "Monócito", desc: "", photo: "monocito2", referenceObj: ""))
+        CellCardView(cellEntity: CellEntity(name: "Monócito", desc: "", photo: "monocito2", referenceObj: "",fonte: ""))
     }
 }

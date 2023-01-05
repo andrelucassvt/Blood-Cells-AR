@@ -12,4 +12,5 @@ struct CellEntity: Identifiable {
     var desc: String
     var photo: String
     var referenceObj: String
+    var fonte: String
 }
