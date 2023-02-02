@@ -1,0 +1,6 @@
+framework module Pods_Blood_cells_AR {
+  umbrella header "Pods-Blood cells AR-umbrella.h"
+
+  export *
+  module * { export * }
+}

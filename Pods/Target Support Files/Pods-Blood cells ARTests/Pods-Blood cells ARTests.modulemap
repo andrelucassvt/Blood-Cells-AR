@@ -1,0 +1,6 @@
+framework module Pods_Blood_cells_ARTests {
+  umbrella header "Pods-Blood cells ARTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

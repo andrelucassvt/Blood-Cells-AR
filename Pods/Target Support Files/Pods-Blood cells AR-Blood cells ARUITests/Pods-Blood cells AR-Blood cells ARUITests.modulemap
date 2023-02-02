@@ -1,0 +1,6 @@
+framework module Pods_Blood_cells_AR_Blood_cells_ARUITests {
+  umbrella header "Pods-Blood cells AR-Blood cells ARUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
