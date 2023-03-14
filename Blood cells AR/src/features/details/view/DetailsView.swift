@@ -51,6 +51,8 @@ struct DetailsView: View {
                             }
                     }
                 }
+                Text(cellEntity.desc)
+                    .padding(.vertical)
                 Text("Fonte:")
                     .foregroundColor(.gray)
                     .font(.system(size: 20))
@@ -62,8 +64,6 @@ struct DetailsView: View {
                     Text(cellEntity.fonte)
                         .multilineTextAlignment(.leading)
                 }
-                Text(cellEntity.desc)
-                    .padding(.vertical)
             }
             .padding()
         }
