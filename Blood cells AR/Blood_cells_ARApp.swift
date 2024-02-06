@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+import ARKit
+
+
 
 @main
 struct Blood_cells_ARApp: App {
@@ -13,5 +16,14 @@ struct Blood_cells_ARApp: App {
         WindowGroup {
             HomeView()
         }
+        
+        WindowGroup(id: "teste") {
+            EarthView()
+        }
+        .windowStyle(.volumetric)
+        .defaultSize(width: 0.8, height: 0.8, depth: 0.8, in: .meters)
     }
 }
+
+
+

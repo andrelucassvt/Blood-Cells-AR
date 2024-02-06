@@ -13,20 +13,18 @@
 		246F20D6295B6C8500D8BAF0 /* Blood_cells_ARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20D5295B6C8500D8BAF0 /* Blood_cells_ARTests.swift */; };
 		246F20E0295B6C8500D8BAF0 /* Blood_cells_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20DF295B6C8500D8BAF0 /* Blood_cells_ARUITests.swift */; };
 		246F20E2295B6C8500D8BAF0 /* Blood_cells_ARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20E1295B6C8500D8BAF0 /* Blood_cells_ARUITestsLaunchTests.swift */; };
-		246F2108295B6CAE00D8BAF0 /* QuickLookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20F1295B6CAE00D8BAF0 /* QuickLookApp.swift */; };
-		246F2109295B6CAE00D8BAF0 /* CellEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20F3295B6CAE00D8BAF0 /* CellEntity.swift */; };
-		246F210A295B6CAE00D8BAF0 /* linfocito.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 246F20F5295B6CAE00D8BAF0 /* linfocito.usdz */; };
-		246F210B295B6CAE00D8BAF0 /* neutrofilo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 246F20F6295B6CAE00D8BAF0 /* neutrofilo.usdz */; };
-		246F210C295B6CAE00D8BAF0 /* monocito.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 246F20F7295B6CAE00D8BAF0 /* monocito.usdz */; };
-		246F210D295B6CAE00D8BAF0 /* basofilo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 246F20F8295B6CAE00D8BAF0 /* basofilo.usdz */; };
-		246F210E295B6CAE00D8BAF0 /* eosinofilo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 246F20F9295B6CAE00D8BAF0 /* eosinofilo.usdz */; };
-		246F210F295B6CAE00D8BAF0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20FD295B6CAE00D8BAF0 /* HomeViewModel.swift */; };
-		246F2110295B6CAE00D8BAF0 /* CellCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F20FF295B6CAE00D8BAF0 /* CellCardView.swift */; };
-		246F2111295B6CAE00D8BAF0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F2101295B6CAE00D8BAF0 /* HomeView.swift */; };
-		246F2112295B6CAE00D8BAF0 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F2104295B6CAE00D8BAF0 /* DetailsView.swift */; };
-		246F2113295B6CAE00D8BAF0 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F2107295B6CAE00D8BAF0 /* AboutView.swift */; };
-		24B7966A295CC6D1003E7EAB /* CardAutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B79669295CC6D1003E7EAB /* CardAutor.swift */; };
-		24B7966D295CCAEE003E7EAB /* StringsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7966C295CCAEE003E7EAB /* StringsApp.swift */; };
+		24C31A592B716B87007F95BA /* StringsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C31A3B2B716B86007F95BA /* StringsApp.swift */; };
+		24C31A5A2B716B87007F95BA /* QuickLookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C31A3D2B716B86007F95BA /* QuickLookApp.swift */; };
+		24C31A5B2B716B87007F95BA /* CellEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C31A3F2B716B86007F95BA /* CellEntity.swift */; };
+		24C31A5C2B716B87007F95BA /* linfocito.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 24C31A412B716B86007F95BA /* linfocito.usdz */; };
+		24C31A5D2B716B87007F95BA /* hemacias.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 24C31A422B716B86007F95BA /* hemacias.usdz */; };
+		24C31A612B716B87007F95BA /* eosinofilo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 24C31A462B716B86007F95BA /* eosinofilo.usdz */; };
+		24C31A622B716B87007F95BA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C31A4A2B716B86007F95BA /* HomeViewModel.swift */; };
+		24C31A632B716B87007F95BA /* CellCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C31A4C2B716B86007F95BA /* CellCardView.swift */; };
+		24C31A642B716B87007F95BA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C31A4E2B716B86007F95BA /* HomeView.swift */; };
+		24C31A652B716B87007F95BA /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C31A512B716B86007F95BA /* DetailsView.swift */; };
+		24C31A662B716B87007F95BA /* CardAutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C31A542B716B86007F95BA /* CardAutor.swift */; };
+		24C31A672B716B87007F95BA /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C31A562B716B86007F95BA /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,20 +54,18 @@
 		246F20DB295B6C8500D8BAF0 /* Blood cells ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blood cells ARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		246F20DF295B6C8500D8BAF0 /* Blood_cells_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blood_cells_ARUITests.swift; sourceTree = "<group>"; };
 		246F20E1295B6C8500D8BAF0 /* Blood_cells_ARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blood_cells_ARUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		246F20F1295B6CAE00D8BAF0 /* QuickLookApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickLookApp.swift; sourceTree = "<group>"; };
-		246F20F3295B6CAE00D8BAF0 /* CellEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellEntity.swift; sourceTree = "<group>"; };
-		246F20F5295B6CAE00D8BAF0 /* linfocito.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = linfocito.usdz; sourceTree = "<group>"; };
-		246F20F6295B6CAE00D8BAF0 /* neutrofilo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = neutrofilo.usdz; sourceTree = "<group>"; };
-		246F20F7295B6CAE00D8BAF0 /* monocito.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = monocito.usdz; sourceTree = "<group>"; };
-		246F20F8295B6CAE00D8BAF0 /* basofilo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = basofilo.usdz; sourceTree = "<group>"; };
-		246F20F9295B6CAE00D8BAF0 /* eosinofilo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = eosinofilo.usdz; sourceTree = "<group>"; };
-		246F20FD295B6CAE00D8BAF0 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		246F20FF295B6CAE00D8BAF0 /* CellCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCardView.swift; sourceTree = "<group>"; };
-		246F2101295B6CAE00D8BAF0 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		246F2104295B6CAE00D8BAF0 /* DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
-		246F2107295B6CAE00D8BAF0 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		24B79669295CC6D1003E7EAB /* CardAutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAutor.swift; sourceTree = "<group>"; };
-		24B7966C295CCAEE003E7EAB /* StringsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsApp.swift; sourceTree = "<group>"; };
+		24C31A3B2B716B86007F95BA /* StringsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringsApp.swift; sourceTree = "<group>"; };
+		24C31A3D2B716B86007F95BA /* QuickLookApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickLookApp.swift; sourceTree = "<group>"; };
+		24C31A3F2B716B86007F95BA /* CellEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellEntity.swift; sourceTree = "<group>"; };
+		24C31A412B716B86007F95BA /* linfocito.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = linfocito.usdz; sourceTree = "<group>"; };
+		24C31A422B716B86007F95BA /* hemacias.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = hemacias.usdz; sourceTree = "<group>"; };
+		24C31A462B716B86007F95BA /* eosinofilo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = eosinofilo.usdz; sourceTree = "<group>"; };
+		24C31A4A2B716B86007F95BA /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		24C31A4C2B716B86007F95BA /* CellCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCardView.swift; sourceTree = "<group>"; };
+		24C31A4E2B716B86007F95BA /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		24C31A512B716B86007F95BA /* DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		24C31A542B716B86007F95BA /* CardAutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardAutor.swift; sourceTree = "<group>"; };
+		24C31A562B716B86007F95BA /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +116,7 @@
 		246F20C3295B6C8300D8BAF0 /* Blood cells AR */ = {
 			isa = PBXGroup;
 			children = (
-				246F20EE295B6CAE00D8BAF0 /* src */,
+				24C31A382B716B86007F95BA /* src */,
 				246F20C4295B6C8300D8BAF0 /* Blood_cells_ARApp.swift */,
 				246F20C8295B6C8500D8BAF0 /* Assets.xcassets */,
 				246F20CA295B6C8500D8BAF0 /* Preview Content */,
@@ -153,145 +149,144 @@
 			path = "Blood cells ARUITests";
 			sourceTree = "<group>";
 		};
-		246F20EE295B6CAE00D8BAF0 /* src */ = {
+		24C31A382B716B86007F95BA /* src */ = {
 			isa = PBXGroup;
 			children = (
-				246F20EF295B6CAE00D8BAF0 /* util */,
-				246F20FA295B6CAE00D8BAF0 /* features */,
+				24C31A392B716B86007F95BA /* util */,
+				24C31A472B716B86007F95BA /* features */,
 			);
-			path = src;
+			name = src;
+			path = ../../../../.Trash/src;
 			sourceTree = "<group>";
 		};
-		246F20EF295B6CAE00D8BAF0 /* util */ = {
+		24C31A392B716B86007F95BA /* util */ = {
 			isa = PBXGroup;
 			children = (
-				24B7966B295CCAE0003E7EAB /* strings */,
-				246F20F0295B6CAE00D8BAF0 /* quickLook */,
-				246F20F2295B6CAE00D8BAF0 /* entity */,
-				246F20F4295B6CAE00D8BAF0 /* models */,
+				24C31A3A2B716B86007F95BA /* strings */,
+				24C31A3C2B716B86007F95BA /* quickLook */,
+				24C31A3E2B716B86007F95BA /* entity */,
+				24C31A402B716B86007F95BA /* models */,
 			);
 			path = util;
 			sourceTree = "<group>";
 		};
-		246F20F0295B6CAE00D8BAF0 /* quickLook */ = {
+		24C31A3A2B716B86007F95BA /* strings */ = {
 			isa = PBXGroup;
 			children = (
-				246F20F1295B6CAE00D8BAF0 /* QuickLookApp.swift */,
+				24C31A3B2B716B86007F95BA /* StringsApp.swift */,
+			);
+			path = strings;
+			sourceTree = "<group>";
+		};
+		24C31A3C2B716B86007F95BA /* quickLook */ = {
+			isa = PBXGroup;
+			children = (
+				24C31A3D2B716B86007F95BA /* QuickLookApp.swift */,
 			);
 			path = quickLook;
 			sourceTree = "<group>";
 		};
-		246F20F2295B6CAE00D8BAF0 /* entity */ = {
+		24C31A3E2B716B86007F95BA /* entity */ = {
 			isa = PBXGroup;
 			children = (
-				246F20F3295B6CAE00D8BAF0 /* CellEntity.swift */,
+				24C31A3F2B716B86007F95BA /* CellEntity.swift */,
 			);
 			path = entity;
 			sourceTree = "<group>";
 		};
-		246F20F4295B6CAE00D8BAF0 /* models */ = {
+		24C31A402B716B86007F95BA /* models */ = {
 			isa = PBXGroup;
 			children = (
-				246F20F5295B6CAE00D8BAF0 /* linfocito.usdz */,
-				246F20F6295B6CAE00D8BAF0 /* neutrofilo.usdz */,
-				246F20F7295B6CAE00D8BAF0 /* monocito.usdz */,
-				246F20F8295B6CAE00D8BAF0 /* basofilo.usdz */,
-				246F20F9295B6CAE00D8BAF0 /* eosinofilo.usdz */,
+				24C31A412B716B86007F95BA /* linfocito.usdz */,
+				24C31A422B716B86007F95BA /* hemacias.usdz */,
+				24C31A462B716B86007F95BA /* eosinofilo.usdz */,
 			);
 			path = models;
 			sourceTree = "<group>";
 		};
-		246F20FA295B6CAE00D8BAF0 /* features */ = {
+		24C31A472B716B86007F95BA /* features */ = {
 			isa = PBXGroup;
 			children = (
-				246F20FB295B6CAE00D8BAF0 /* home */,
-				246F2102295B6CAE00D8BAF0 /* details */,
-				246F2105295B6CAE00D8BAF0 /* about */,
+				24C31A482B716B86007F95BA /* home */,
+				24C31A4F2B716B86007F95BA /* details */,
+				24C31A522B716B86007F95BA /* about */,
 			);
 			path = features;
 			sourceTree = "<group>";
 		};
-		246F20FB295B6CAE00D8BAF0 /* home */ = {
+		24C31A482B716B86007F95BA /* home */ = {
 			isa = PBXGroup;
 			children = (
-				246F20FC295B6CAE00D8BAF0 /* viewModel */,
-				246F20FE295B6CAE00D8BAF0 /* card */,
-				246F2100295B6CAE00D8BAF0 /* view */,
+				24C31A492B716B86007F95BA /* viewModel */,
+				24C31A4B2B716B86007F95BA /* card */,
+				24C31A4D2B716B86007F95BA /* view */,
 			);
 			path = home;
 			sourceTree = "<group>";
 		};
-		246F20FC295B6CAE00D8BAF0 /* viewModel */ = {
+		24C31A492B716B86007F95BA /* viewModel */ = {
 			isa = PBXGroup;
 			children = (
-				246F20FD295B6CAE00D8BAF0 /* HomeViewModel.swift */,
+				24C31A4A2B716B86007F95BA /* HomeViewModel.swift */,
 			);
 			path = viewModel;
 			sourceTree = "<group>";
 		};
-		246F20FE295B6CAE00D8BAF0 /* card */ = {
+		24C31A4B2B716B86007F95BA /* card */ = {
 			isa = PBXGroup;
 			children = (
-				246F20FF295B6CAE00D8BAF0 /* CellCardView.swift */,
+				24C31A4C2B716B86007F95BA /* CellCardView.swift */,
 			);
 			path = card;
 			sourceTree = "<group>";
 		};
-		246F2100295B6CAE00D8BAF0 /* view */ = {
+		24C31A4D2B716B86007F95BA /* view */ = {
 			isa = PBXGroup;
 			children = (
-				246F2101295B6CAE00D8BAF0 /* HomeView.swift */,
+				24C31A4E2B716B86007F95BA /* HomeView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
 		};
-		246F2102295B6CAE00D8BAF0 /* details */ = {
+		24C31A4F2B716B86007F95BA /* details */ = {
 			isa = PBXGroup;
 			children = (
-				246F2103295B6CAE00D8BAF0 /* view */,
+				24C31A502B716B86007F95BA /* view */,
 			);
 			path = details;
 			sourceTree = "<group>";
 		};
-		246F2103295B6CAE00D8BAF0 /* view */ = {
+		24C31A502B716B86007F95BA /* view */ = {
 			isa = PBXGroup;
 			children = (
-				246F2104295B6CAE00D8BAF0 /* DetailsView.swift */,
+				24C31A512B716B86007F95BA /* DetailsView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
 		};
-		246F2105295B6CAE00D8BAF0 /* about */ = {
+		24C31A522B716B86007F95BA /* about */ = {
 			isa = PBXGroup;
 			children = (
-				24B79668295CC6B1003E7EAB /* card */,
-				246F2106295B6CAE00D8BAF0 /* view */,
+				24C31A532B716B86007F95BA /* card */,
+				24C31A552B716B86007F95BA /* view */,
 			);
 			path = about;
 			sourceTree = "<group>";
 		};
-		246F2106295B6CAE00D8BAF0 /* view */ = {
+		24C31A532B716B86007F95BA /* card */ = {
 			isa = PBXGroup;
 			children = (
-				246F2107295B6CAE00D8BAF0 /* AboutView.swift */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		24B79668295CC6B1003E7EAB /* card */ = {
-			isa = PBXGroup;
-			children = (
-				24B79669295CC6D1003E7EAB /* CardAutor.swift */,
+				24C31A542B716B86007F95BA /* CardAutor.swift */,
 			);
 			path = card;
 			sourceTree = "<group>";
 		};
-		24B7966B295CCAE0003E7EAB /* strings */ = {
+		24C31A552B716B86007F95BA /* view */ = {
 			isa = PBXGroup;
 			children = (
-				24B7966C295CCAEE003E7EAB /* StringsApp.swift */,
+				24C31A562B716B86007F95BA /* AboutView.swift */,
 			);
-			path = strings;
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,13 +393,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				246F210C295B6CAE00D8BAF0 /* monocito.usdz in Resources */,
-				246F210A295B6CAE00D8BAF0 /* linfocito.usdz in Resources */,
+				24C31A5D2B716B87007F95BA /* hemacias.usdz in Resources */,
 				246F20CC295B6C8500D8BAF0 /* Preview Assets.xcassets in Resources */,
-				246F210B295B6CAE00D8BAF0 /* neutrofilo.usdz in Resources */,
-				246F210D295B6CAE00D8BAF0 /* basofilo.usdz in Resources */,
+				24C31A612B716B87007F95BA /* eosinofilo.usdz in Resources */,
 				246F20C9295B6C8500D8BAF0 /* Assets.xcassets in Resources */,
-				246F210E295B6CAE00D8BAF0 /* eosinofilo.usdz in Resources */,
+				24C31A5C2B716B87007F95BA /* linfocito.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,16 +422,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				246F2113295B6CAE00D8BAF0 /* AboutView.swift in Sources */,
-				246F2110295B6CAE00D8BAF0 /* CellCardView.swift in Sources */,
-				24B7966A295CC6D1003E7EAB /* CardAutor.swift in Sources */,
-				246F2112295B6CAE00D8BAF0 /* DetailsView.swift in Sources */,
-				246F2109295B6CAE00D8BAF0 /* CellEntity.swift in Sources */,
-				246F2108295B6CAE00D8BAF0 /* QuickLookApp.swift in Sources */,
-				246F2111295B6CAE00D8BAF0 /* HomeView.swift in Sources */,
+				24C31A632B716B87007F95BA /* CellCardView.swift in Sources */,
+				24C31A672B716B87007F95BA /* AboutView.swift in Sources */,
+				24C31A642B716B87007F95BA /* HomeView.swift in Sources */,
+				24C31A5B2B716B87007F95BA /* CellEntity.swift in Sources */,
+				24C31A592B716B87007F95BA /* StringsApp.swift in Sources */,
+				24C31A652B716B87007F95BA /* DetailsView.swift in Sources */,
 				246F20C5295B6C8300D8BAF0 /* Blood_cells_ARApp.swift in Sources */,
-				24B7966D295CCAEE003E7EAB /* StringsApp.swift in Sources */,
-				246F210F295B6CAE00D8BAF0 /* HomeViewModel.swift in Sources */,
+				24C31A662B716B87007F95BA /* CardAutor.swift in Sources */,
+				24C31A622B716B87007F95BA /* HomeViewModel.swift in Sources */,
+				24C31A5A2B716B87007F95BA /* QuickLookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +525,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
 		};
@@ -586,6 +580,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
@@ -595,7 +590,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Blood cells AR/Preview Content\"";
 				DEVELOPMENT_TEAM = QNW59SGYAU;
 				ENABLE_PREVIEWS = YES;
@@ -605,22 +600,23 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.Blood-cells-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -630,7 +626,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Blood cells AR/Preview Content\"";
 				DEVELOPMENT_TEAM = QNW59SGYAU;
 				ENABLE_PREVIEWS = YES;
@@ -640,22 +636,23 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andre.Blood-cells-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};
